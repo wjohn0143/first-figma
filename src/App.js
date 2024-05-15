@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import 'antd';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Navbar from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
