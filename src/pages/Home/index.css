@@ -1,0 +1,49 @@
+
+
+.FirstLeft {
+    padding-left: 160px;
+}
+
+.title {
+    padding-top: 270px;
+
+    /* padding-bottom: 24.18px; */
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 69px;
+    text-align: left;
+    color: rgba(3, 7, 52, 1);
+}
+
+.line {
+    padding-bottom: 55px;
+    width: 420px;
+}
+
+.description {
+
+    padding-right: 20px;
+    padding-bottom: 44px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(96, 98, 99, 1);
+}
+
+.Store {
+    display: flex;
+
+}
+
+.Store img {
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.FirstRight {
+    position: relative;
+    height: 930px;
+    border-radius: 60px 0px 0px 60px;
+    background: rgba(246, 228, 239, 1);
+}

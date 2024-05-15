@@ -3,6 +3,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 24px 160px;
+    position:absolute;
+    width:100%;
+    z-index: 2;
 }
 
 .navbar .logo {
