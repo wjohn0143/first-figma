@@ -1,4 +1,6 @@
-
+.Serenestream {
+    padding-bottom: 212px;
+}
 
 .FirstLeft {
     padding-left: 160px;
@@ -46,4 +48,129 @@
     height: 930px;
     border-radius: 60px 0px 0px 60px;
     background: rgba(246, 228, 239, 1);
+}
+
+.backIGM {
+    position: absolute;
+    width: 398px;
+    height: 613px;
+    top: 253px;
+    left: 40px;
+    border-radius: 4px 200px 4px 200px;
+    background: rgba(3, 7, 52, 0.03);
+}
+
+.Group {
+    position: absolute;
+    top: 162px;
+    left: 475px;
+}
+
+.lphone {
+    position: absolute;
+    top: 194px;
+    left: 260px;
+
+
+}
+
+.Sphone {
+    position: absolute;
+    left: 95.38px;
+    top: 478px;
+}
+
+.Blog {
+    position: absolute;
+    left: 169.95px;
+    top: 335px;
+}
+
+.Innerpeace {
+    padding-bottom: 131px;
+}
+
+.Innerpeace .Title h3 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    color: rgba(3, 7, 52, 1);
+}
+
+.Title {
+    padding-bottom: 100px;
+}
+
+.Innerpeace .Title p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(96, 98, 99, 1);
+}
+
+.descriptionCards {
+    padding: 0px 160px;
+}
+
+.Group_blue {
+    position: absolute;
+    left: 111px;
+    top: 1330px;
+    z-index: 0;
+}
+
+.Group_blue1 {
+    position: absolute;
+    left: 1080px;
+    top: 1815px;
+    z-index: 0;
+}
+
+.SerenestreamLife {
+    position: relative;
+    height: 1279px;
+    border-radius: 62px;
+    background: rgba(200, 204, 255, 0.2);
+}
+
+.backSqure1 {
+    position: absolute;
+    width: 420px;
+    height: 744px;
+    top: 87px;
+    left: 160px;
+    border-radius: 4px 200px 4px 200px;
+    background: rgba(200, 204, 255, 0.3);
+}
+.backSqure2 {
+    position: absolute;
+    width: 420px;
+    height: 744px;
+    top: 87px;
+    right: 158px;
+    border-radius: 200px 4px 200px 4px;
+    background: rgba(200, 204, 255, 0.3);
+}
+.backSqure3 {
+    position: absolute;
+    width: 1240px;
+    height: 290px;
+    top: 465px;
+    right: 0px;
+    border-radius: 44px 0px 0px 44px;
+    background: rgba(225, 56, 132, 1);
+}
+.backSqure4 {
+    position: absolute;
+    width: 1240px;
+    height: 290px;
+    top: 812px;
+    left: 0;
+    border-radius:0px 44px 44px 0px;
+    background: rgba(225, 56, 132, 1);
+}
+.shots{
+    position: absolute;
+    top: 298px;
+    left: 440px;
 }
