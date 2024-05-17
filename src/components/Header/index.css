@@ -3,8 +3,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 24px 160px;
-    position:absolute;
-    width:100%;
+    position: absolute;
+    width: 100%;
     z-index: 2;
 }
 
@@ -18,8 +18,14 @@
     list-style-type: none;
 }
 
-.logo ul li {
+.logo ul li a {
     padding-right: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
     cursor: pointer;
 }
 
