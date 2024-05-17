@@ -142,6 +142,7 @@
     border-radius: 4px 200px 4px 200px;
     background: rgba(200, 204, 255, 0.3);
 }
+
 .backSqure2 {
     position: absolute;
     width: 420px;
@@ -151,6 +152,7 @@
     border-radius: 200px 4px 200px 4px;
     background: rgba(200, 204, 255, 0.3);
 }
+
 .backSqure3 {
     position: absolute;
     width: 1240px;
@@ -160,17 +162,426 @@
     border-radius: 44px 0px 0px 44px;
     background: rgba(225, 56, 132, 1);
 }
+
 .backSqure4 {
     position: absolute;
     width: 1240px;
     height: 290px;
     top: 812px;
     left: 0;
-    border-radius:0px 44px 44px 0px;
+    border-radius: 0px 44px 44px 0px;
     background: rgba(225, 56, 132, 1);
 }
-.shots{
+
+.shots {
     position: absolute;
     top: 298px;
     left: 440px;
+}
+
+.rectAngle1 {
+    position: absolute;
+    right: 0;
+    top: 465px;
+}
+
+.rectAngle2 {
+    position: absolute;
+    right: 35px;
+    top: 523px;
+}
+
+.rectAngle3 {
+    position: absolute;
+    left: 0;
+    top: 998px;
+}
+
+.rectAngle4 {
+    position: absolute;
+    left: 35px;
+    top: 962px;
+}
+
+.SerenestreamLife_titlebox {
+    text-align: center;
+    padding-top: 63px;
+}
+
+.SerenestreamLife_titlebox a {
+    width: 146px;
+    height: 38px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    background: rgba(225, 220, 234, 1);
+}
+
+.SerenestreamLife_titlebox h3 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    color: rgba(5, 11, 82, 1);
+    padding: 16px 0px;
+    margin: 0;
+}
+
+.SerenestreamLife_titlebox p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(5, 11, 82, 0.7);
+}
+
+.AIchat {
+    position: absolute;
+    width: 332px;
+    height: 232px;
+    top: 494px;
+    left: 160px;
+    gap: 16px;
+}
+
+.AIchat h3 {
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 66px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.AIchat p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.MoodTracking {
+    position: absolute;
+    width: 332px;
+    height: 232px;
+    top: 494px;
+    right: 96px;
+    gap: 16px;
+}
+
+.MoodTracking h3 {
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 66px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.MoodTracking p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.WeeklyMoodSummary {
+    position: absolute;
+    width: 332px;
+    height: 232px;
+    top: 838px;
+    left: 160px;
+    gap: 16px;
+}
+
+.WeeklyMoodSummary h3 {
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 66px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.WeeklyMoodSummary p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.Meditation {
+    position: absolute;
+    width: 332px;
+    height: 232px;
+    top: 838px;
+    right: 96px;
+    gap: 16px;
+}
+
+.Meditation h3 {
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 66px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Meditation p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.RoadmapEmotional_titlebox {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.RoadmapEmotional_titlebox a {
+    width: 146px;
+    height: 38px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    background: rgba(225, 220, 234, 1);
+}
+
+.RoadmapEmotional_titlebox h3 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    color: rgba(5, 11, 82, 1);
+    padding: 16px 0px;
+    margin: 0;
+}
+
+.RoadmapEmotional_titlebox p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(5, 11, 82, 0.7);
+}
+
+.SignupGetStarted {
+    position: relative;
+    padding: 60px 65px 0 100px;
+    width: 100%;
+    height: 471px;
+    background: rgba(249, 236, 244, 1);
+}
+
+.SignupGetStarted h6 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(3, 7, 52, 1);
+}
+
+.SignupGetStarted p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(96, 98, 99, 1);
+}
+
+.num01 {
+    position: absolute;
+    bottom: 13px;
+    right: 38px;
+}
+
+.ExploreKeyFeature {
+    position: relative;
+    padding: 60px 65px 0 100px;
+    width: 100%;
+    height: 471px;
+    background: rgba(229, 231, 255, 1);
+}
+
+.ExploreKeyFeature h6 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(3, 7, 52, 1);
+}
+
+.ExploreKeyFeature p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(96, 98, 99, 1);
+}
+
+.num02 {
+    position: absolute;
+    bottom: 13px;
+    right: 38px;
+}
+
+.BenefitsSerenestream {
+    position: relative;
+    padding-left: 160px;
+    padding-bottom: 120px;
+}
+
+.BenefitsSerenestream_titlebox {
+    text-align: left;
+    padding-top: 120px;
+    padding-bottom: 58px;
+}
+
+.BenefitsSerenestream_titlebox a {
+    width: 146px;
+    height: 38px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    background: rgba(225, 220, 234, 1);
+}
+
+.BenefitsSerenestream_titlebox h3 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    color: rgba(5, 11, 82, 1);
+    padding: 16px 0px;
+    margin: 0;
+}
+
+.BenefitsSerenestream_titlebox p {
+    width: 596px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(5, 11, 82, 0.7);
+}
+
+.ReactAngle_woman {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    border-radius: 120px 0px 120px 0px;
+}
+
+.ReactAngle_man {
+    position: absolute;
+    top: 340px;
+    right: 350px;
+
+}
+
+.Reactcro {
+    position: absolute;
+    top: 340px;
+    right: 350px;
+}
+
+.Group_Sblue {
+    position: absolute;
+    top: 885px;
+    right: 244.45px;
+}
+
+
+.journey {
+    text-align: center;
+    padding-bottom: 95px;
+    background: rgba(225, 56, 132, 1);
+    height: 570px
+}
+
+.journey_titlebox {
+    padding-top: 142px;
+    padding-bottom: 44px;
+
+}
+
+.journey_titlebox a {
+    width: 146px;
+    height: 38px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    background: rgba(225, 220, 234, 1);
+}
+
+.journey_titlebox h3 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    color: rgba(255, 255, 255, 1);
+
+    padding: 16px 0px;
+    margin: 0;
+}
+
+.journey_titlebox p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.journey img {
+    padding-right: 20px;
+}
+
+
+.answer {
+    text-align: center;
+}
+
+.answer_titlebox {
+    padding-top: 120px;
+    padding-bottom: 100px;
+
+}
+
+.answer_titlebox a {
+    width: 146px;
+    height: 38px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 1);
+    background: rgba(225, 220, 234, 1);
+}
+
+.answer_titlebox h3 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    color: rgba(3, 7, 52, 1);
+    padding: 16px 0px;
+    margin: 0;
+}
+
+.answer_titlebox p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(96, 98, 99, 1);
+}
+.answer_detail{
+    text-align: center;
+    width: 996px;
+    padding-left: 360px;
+    padding-bottom: 128px;
 }

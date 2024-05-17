@@ -5,14 +5,16 @@ import './index.css'
 const Innerpeace = ({ items }) => {
 
     return (
+        <div className='descriptioncard'>
+            <h6>{items.title}</h6>
 
-        <div className='col-md-4 p-0'>
-            <div className='descriptioncard'>
-                <h6>{items.title}</h6>
-                <p>{items.description}</p>
-            </div>
+            <p>{items.description&&items.description.map((desc,descIndex)=>{
+                return(
+                    <p key={descIndex}>{desc}</p>
+                )
+
+            })}</p>
         </div>
-
     )
 }
 
