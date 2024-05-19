@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import react, { useEffect } from 'react';
 import './App.css';
 import 'antd';
 import '@ant-design/icons'
@@ -9,19 +10,23 @@ import Footer from './components/Footer/Footer';
 import About from './pages/About/About';
 import Home from './pages/Home/Home';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import disableDevTools from './components/preventDevTools';
 function App() {
+  useEffect(() => {
+    disableDevTools();
+  }, []);
+
   return (
-
-    <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
-
+    <div  className='App no-select'>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </div>
   );
 }
 

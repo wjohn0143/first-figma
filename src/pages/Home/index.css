@@ -584,7 +584,8 @@
 }
 .answer_detail{
     text-align: center;
-    width: 996px;
-    padding-left: 360px;
     padding-bottom: 128px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
