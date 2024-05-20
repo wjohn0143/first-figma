@@ -1,4 +1,8 @@
-import react from 'react'
+import react from 'react';
+import Frame1 from '../assests/Frame1.png'
+import Frame2 from '../assests/Frame2.png'
+import Frame3 from '../assests/Frame3.png'
+import Frame4 from '../assests/Frame4.png'
 
 export const InnerpeaceList = [
     {
@@ -63,4 +67,32 @@ export const BenefitsSerenestream_row = [
                 "Whether you're feeling overwhelmed or simply want to talk, our virtual companion is here to listen, offer guidance, and provide a comforting presence whenever you need it most.",
             ]
     },
+]
+
+export const MemberinfoList = [
+
+    {
+        url:Frame1,
+        name:"Emily Doe",
+        job:"Co-Founder & CEO",
+        desc:"With a passion for mental health advocacy, Sarah leads Serenestream with vision and compassion. Her strategic insights drive the company forward, ensuring that every decision aligns with our mission to empower emotional well-being."
+    },
+    {
+        url:Frame4,
+        name:"David Patel",
+        job:"Lead Developer",
+        desc:"David's expertise in software development brings Serenestream's vision to life. With precision and skill, he leads our development team in creating a seamless, user-friendly app that empowers individuals to find peace and resilience."
+    },
+    {
+        url:Frame3,
+        name:"John Doe",
+        job:"Co-Founder & CEO",
+        desc:"John's keen eye for detail and user-centric approach shape Serenestream's product experience. With a focus on empathy and usability, she ensures that every feature reflects our commitment to enhancing emotional well-being."
+    },
+    {
+        url:Frame2,
+        name:"Michele Rodriguez",
+        job:"Co-Founder & CTO",
+        desc:"As the technical mastermind behind Serenestream, Michael brings expertise and innovation to our platform. His dedication to cutting-edge technology ensures that our app remains intuitive, reliable, and impactful."
+    }
 ]

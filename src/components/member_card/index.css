@@ -1,0 +1,50 @@
+.member-wrapper:nth-of-type(even) {
+    display: flex;
+    justify-content: end;
+}
+.member {
+    width:423px;
+    height:827px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom:100px;
+}
+
+.member_title {
+    text-align: center; 
+    padding: 16px 69px 16px 69px;
+    border-radius: 44px;
+    background: rgba(246, 228, 239, 1);
+}
+
+.member_title h6 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.member_title p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.member_desc {
+    padding: 0px 0px 0px 10px;
+    border-left: 1px solid rgba(225, 56, 132, 1)
+}
+
+.member_desc p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.aboutus{
+    padding-left: 160px;
+    padding-right: 160px;
+}

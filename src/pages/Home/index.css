@@ -88,6 +88,8 @@
 
 .Innerpeace {
     padding-bottom: 131px;
+    position: relative;
+    z-index: 3;
 }
 
 .Innerpeace .Title h3 {
@@ -108,6 +110,7 @@
     color: rgba(96, 98, 99, 1);
 }
 
+
 .descriptionCards {
     padding: 0px 160px;
 }
@@ -115,15 +118,15 @@
 .Group_blue {
     position: absolute;
     left: 111px;
-    top: 1330px;
-    z-index: 0;
+    top: 200px;
+    z-index: -1;
 }
 
 .Group_blue1 {
     position: absolute;
     left: 1080px;
-    top: 1815px;
-    z-index: 0;
+    top: 670px;
+    z-index: -1;
 }
 
 .SerenestreamLife {
@@ -581,7 +584,8 @@
 }
 .answer_detail{
     text-align: center;
-    width: 996px;
-    padding-left: 360px;
     padding-bottom: 128px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
